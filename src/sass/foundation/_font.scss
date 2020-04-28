@@ -1,0 +1,32 @@
+/* YUI 3.9.0 (build 5827) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
+body {
+  font: 14px/1.5 "游ゴシック", "Yu Gothic", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  *font-size: small;
+  *font: x-small
+}
+
+select,
+input,
+button,
+textarea {
+  font: 99% arial, helvetica, clean, sans-serif
+}
+
+table {
+  font-size: inherit;
+  font: 100%
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%
+}
+
+#yui3-css-stamp.cssfonts {
+  display: none
+}

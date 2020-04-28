@@ -1,0 +1,27 @@
+{
+  "name": "05_sassbook_finished",
+  "version": "1.0.0",
+  "description": "Web制作者のためのSassの教科書 5章サンプル",
+  "homepage": "http://book.scss.jp/",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.26.7",
+    "css-declaration-sorter": "^2.0.1",
+    "css-mqpacker": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "postcss-assets": "^4.2.0"
+  }
+}

@@ -1,0 +1,107 @@
+@import "../../foundation/_mediaqueries";
+
+
+/* utility
+===============================================================*/
+.u-mt1em {
+  margin-top: 1em !important;
+}
+
+.u-mb0em {
+  margin-bottom: 0em !important;
+}
+
+.u-mb1em {
+  margin-bottom: 1em !important;
+}
+
+.u-mb2em {
+  margin-bottom: 2em !important;
+}
+
+.u-strongTxt {
+  font-size: 56px;
+}
+
+.u-marker {
+  background: linear-gradient(transparent 60%, #e1cdb4 60%);
+  font-weight: bold;
+}
+
+.u-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.u-alCenter {
+  align-items: center;
+}
+
+.u-spbw {
+  justify-content: space-between;
+}
+
+.u-ta-c {
+  text-align: center !important;
+}
+
+.u-pc {
+  display: inline;
+
+  @include sp {
+    display: none;
+  }
+}
+
+.u-tab {
+  display: none;
+
+  @include tab {
+    display: inline;
+  }
+}
+
+.u-sp {
+  display: none;
+
+  @include sp {
+    display: inline;
+  }
+}
+
+.u-sp_sm {
+  display: none;
+
+  @include sp_sm {
+    display: inline;
+  }
+}
+
+.u-clearfix:after {
+  content: " ";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0.1px;
+  font-size: 0.1em;
+  line-height: 0;
+}
+
+.u-clearfix {
+  display: inline-block;
+}
+
+/* exlude MacIE5 \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.u-clearfix {
+  display: block;
+}
+
+/* end MacIE5 */
+
+.u-clear {
+  clear: both;
+}

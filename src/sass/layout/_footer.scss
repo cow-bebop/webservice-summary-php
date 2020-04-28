@@ -1,0 +1,36 @@
+@import "../foundation/_mediaqueries";
+
+.l-footer {
+  padding: 50px 0;
+  background: -moz-linear-gradient(left, rgba(30, 115, 160, .8) 0%, rgba(30, 115, 160, .5) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(30, 115, 160, .8) 0%, rgba(30, 115, 160, .5) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(30, 115, 160, .8) 0%, rgba(30, 115, 160, .5) 100%);
+
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  @include header {
+    padding: 50px 0;
+
+  }
+
+  @include pc {
+    padding: 50px 0;
+
+  }
+
+  @include tab {
+    padding: 50px 0;
+
+  }
+
+  @include sp {
+    padding: 50px 0;
+
+  }
+
+  @include sp_sm {
+    padding: 50px 0;
+
+  }
+}

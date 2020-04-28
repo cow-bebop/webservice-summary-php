@@ -1,0 +1,98 @@
+@import "_mediaqueries";
+
+/* html body base
+===============================================================*/
+
+/*
+html ----------------------------------------------------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "メイリオ",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka,
+    "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
+  position: relative;
+
+  @include header {
+    color: #000;
+  }
+
+  @include pc {
+    color: #000;
+  }
+
+  @include tab {
+    color: #000;
+  }
+
+  @include top {
+    color: #000;
+  }
+
+  @include sp {
+    color: #000;
+  }
+
+  @include sp_sm {
+    color: #000;
+  }
+}
+
+a:link {
+  color: #343434;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #343434;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #343434;
+  text-decoration: none;
+}
+
+a:active {
+  color: #343434;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #212020;
+}
+
+a:hover {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.6;
+}
